@@ -61,3 +61,14 @@ Click on `Show advanced` and then `Go to Untitled project (unsafe)` to allow it 
 After install, the original document should have a new menu item named `Custom Scripts` with the entry `Add Link`. If not, reload the document.
 
 Clicking on `Add Link` goes through the document and replaces all the references [ID,time] with the corresponding links.
+
+
+## nlp-mapping.ipynb
+A common problem during the consolidation step is, that the different groups identified similar issues, but described them in their domian specific language. This makes it hard to merge the results from different WGs. 
+If the WGs identified a large number of issues, manual inspection is very labour intensive.
+
+We created a solution based on semantic textual similarity to identify groups of similar issues, which can be assessed in this jupyter notebook (created with python 3.8).
+
+As input a csv file of issue descriptions with the columns "ID", "WG", "Title" and "Description" is required.
+
+The approach is described in greater detail in this publication: *TODO: enter link to publication once it is published somewhere*.
