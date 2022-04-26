@@ -1,4 +1,4 @@
-# Z-Inspection® Tooling
+# Z-Inspection® Toolkit
 This repository contains various scripts developed to assess different steps during the assessment with Z-Inspection®.
 
 The following is a short explanation of the scripts, in which steps of the assessment process they can be used and why they were found useful.
