@@ -49,7 +49,7 @@ The script allows to provide multiple recordings with identifies, i.e. PM1 ('pro
 ### Installation
 Open the document in google docs, then to to   
 ```
-Tools > Script editor
+Extensions > Apps Script
 ```
 This should open a new tab, with an AppsScript development interface.
 Copy + paste the script into the code part, adapt the variables at the beginning of the script, save the project and click on the `Run` button above the editor.
